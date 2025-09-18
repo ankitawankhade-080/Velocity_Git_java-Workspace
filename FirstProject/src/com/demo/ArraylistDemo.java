@@ -2,6 +2,7 @@ package com.demo;
 
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class ArraylistDemo {
@@ -15,6 +16,12 @@ public class ArraylistDemo {
 	   list.add("hydrabad");
 	   
 	   System.out.println(list);
+	   
+	  Iterator<String> itr= list.iterator();
+	  while(itr.hasNext()) {
+		  System.out.println(itr.next());
+	  }
+	 
 	}
 
 }

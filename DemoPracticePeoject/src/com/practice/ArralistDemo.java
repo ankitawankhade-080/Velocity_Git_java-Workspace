@@ -15,6 +15,10 @@ public class ArralistDemo {
 			   list.add("Vijay");
 			   
 			   System.out.println(list);
+			   
+			   for(String s:list) {
+				   System.out.println(s);
+			   }
 			}
 
 	}
